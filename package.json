@@ -1,0 +1,17 @@
+{
+  "name": "hello-tensorflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "@tensorflow/tfjs": "^4.5.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
