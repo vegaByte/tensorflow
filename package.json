@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://vegabyte.github.io/tensorflow",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel index.html" ,
     "build": "parcel build index.html --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

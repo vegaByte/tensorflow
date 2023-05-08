@@ -31,7 +31,7 @@ button.addEventListener("click", () => {
   const height = parseFloat(input.value);
   if (height > 0){
     const output = model.predict(tf.tensor2d([height], [1, 1]));
-    result.innerText = output.dataSync()[0].toFixed(2);
+    result.innerText = `Peso predecido: ${output.dataSync()[0].toFixed(2)}`;
   } else {
     alert("Please enter a valid height");
   }
